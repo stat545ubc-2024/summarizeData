@@ -22,6 +22,7 @@ A data frame with the grouping variable and the calculated mean and standard dev
 This function takes a data frame, groups it by a specified column, and summarizes a numeric column by calculating the mean and standard deviation.
 }
 \examples{
+library(dplyr)
 summarize_data(mtcars, "cyl", "mpg")
 
 # Handling NA values
