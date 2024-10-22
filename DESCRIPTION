@@ -1,0 +1,14 @@
+Package: summarizeDataPackage
+Type: Package
+Title: Summarize Data by Group
+Version: 0.1.0
+Author: Runhe Guo <guorunhe@student.ubc.ca>
+Maintainer: Runhe Guo <guorunhe@student.ubc.ca>
+Description: Provides a function to summarize numeric data by grouping variables, calculating mean and standard deviation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr (>= 1.0.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2

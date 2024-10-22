@@ -1,19 +1,18 @@
+---
+output: github_document
+---
 
 # summarizeDataPackage
 
 ## Description
 
-`summarizeData` provides a simple and flexible function to summarize
-numeric data by grouping variables. It calculates the mean and standard
-deviation for specified numeric columns within groups defined by a
-categorical variable.
+`summarizeData` provides a simple and flexible function to summarize numeric data by grouping variables. It calculates the mean and standard deviation for specified numeric columns within groups defined by a categorical variable.
 
 ## Installation
 
-You can install the development version of `summarizeData` from GitHub
-using the `devtools` package:
+You can install the development version of `summarizeData` from GitHub using the `devtools` package:
 
-``` r
+```r
 # Install devtools if not already installed
 install.packages("devtools")
 
@@ -23,7 +22,7 @@ devtools::install_github("guorunhe-design/summarizeData")
 
 ## Usage
 
-``` r
+```r
 library(summarizeDataPackage)
 
 # Summarize mpg by cyl in mtcars
