@@ -1,4 +1,4 @@
-Package: summarizeDataPackage
+Package: summarizeData
 Type: Package
 Title: Summarize Data by Group
 Version: 0.1.0

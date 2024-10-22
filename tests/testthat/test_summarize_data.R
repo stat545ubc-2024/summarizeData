@@ -1,5 +1,5 @@
 library(testthat)
-library(summarizeDataPackage)
+library(summarizeData)
 library(dplyr)
 
 test_that("summarize_data works correctly with no NAs", {
