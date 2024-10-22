@@ -1,5 +1,5 @@
 
-# summarizeDataPackage
+# summarizeData Package
 
 ## Description
 
