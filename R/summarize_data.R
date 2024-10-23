@@ -2,7 +2,7 @@
 #'
 #' This function takes a data frame, groups it by a specified column, and summarizes a numeric column by calculating the mean and standard deviation.
 #'
-#' @importFrom dplyr group_by summarise ungroup
+#' @importFrom dplyr group_by summarise ungroup mutate
 #' @importFrom magrittr %>%
 #' @importFrom stats sd
 #' @importFrom rlang .data
