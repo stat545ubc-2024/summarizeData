@@ -17,7 +17,7 @@ You can install the development version of `summarizeData` from GitHub using the
 install.packages("devtools")
 
 # Install summarizeDataPackage from GitHub
-devtools::install_github("guorunhe-design/summarizeData")
+devtools::install_github("stat545ubc-2024/summarizeData")
 ```
 
 ## Usage

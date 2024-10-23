@@ -18,7 +18,7 @@ using the `devtools` package:
 install.packages("devtools")
 
 # Install summarizeDataPackage from GitHub
-devtools::install_github("guorunhe-design/summarizeData")
+devtools::install_github("stat545ubc-2024/summarizeData")
 ```
 
 ## Usage
