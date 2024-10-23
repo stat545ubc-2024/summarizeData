@@ -17,14 +17,14 @@ using the `devtools` package:
 # Install devtools if not already installed
 install.packages("devtools")
 
-# Install summarizeDataPackage from GitHub
+# Install summarizeData from GitHub
 devtools::install_github("stat545ubc-2024/summarizeData")
 ```
 
 ## Usage
 
 ``` r
-library(summarizeDataPackage)
+library(summarizeData)
 
 # Summarize mpg by cyl in mtcars
 summary_mtcars <- summarize_data(mtcars, "cyl", "mpg")
