@@ -6,7 +6,7 @@ output: github_document
 
 ## Description
 
-`summarizeData` provides a simple and flexible function to summarize numeric data by grouping variables. It calculates the mean and standard deviation for specified numeric columns within groups defined by a categorical variable.
+`summarizeData` provides a versatile function to summarize numeric data within dataframes by grouping based on a specified categorical column. It calculates key statistics—mean and standard deviation—for each group, facilitating efficient and precise data analysis.
 
 ## Installation
 
