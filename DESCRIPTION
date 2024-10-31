@@ -1,6 +1,6 @@
 Package: summarizeData
 Type: Package
-Title: Tools for Summarizing Data
+Title: Summarize Data by Group
 Version: 1.0.0
 Author: Runhe Guo <guorunhe@student.ubc.ca>
 Maintainer: Runhe Guo <guorunhe@student.ubc.ca>

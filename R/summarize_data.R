@@ -6,6 +6,7 @@
 #' @importFrom magrittr %>%
 #' @importFrom stats sd
 #' @importFrom rlang .data
+#' 
 #' @param data A data frame to be summarized.
 #' @param group_var A string specifying the column name to group by.
 #' @param summary_var A string specifying the numeric column to summarize.
@@ -14,7 +15,7 @@
 #' @return A data frame with the grouping variable and the calculated mean and standard deviation.
 #'
 #' @examples
-#' library(dplyr)
+#' # Basic usage
 #' summarize_data(mtcars, "cyl", "mpg")
 #' 
 #' # Handling NA values
@@ -35,11 +36,17 @@ summarize_data <- function(data, group_var, summary_var, na.rm = TRUE) {
     stop("summary_var must be a numeric column.")
   }
   
+  # This pipeline processes 'data' to group and summarize specified variables
   data %>%
-    group_by(.data[[group_var]]) %>%
-    summarise(
+    # Group data by the specified 'group_var' column
+    dplyr::group_by(.data[[group_var]]) %>%
+    # Calculate summary statistics for the 'summary_var' column:
+    # 'mean' - computes mean, ignoring NA values if 'na.rm' is TRUE
+    # 'sd' - computes standard deviation, also ignoring NAs based on 'na.rm'
+    dplyr::summarise(
       mean = mean(.data[[summary_var]], na.rm = na.rm),
-      sd = sd(.data[[summary_var]], na.rm = na.rm)
+      sd = stats::sd(.data[[summary_var]], na.rm = na.rm)
     ) %>%
-    ungroup()
+    # Remove grouping structure from the data to return a regular data frame
+    dplyr::ungroup()
 }
