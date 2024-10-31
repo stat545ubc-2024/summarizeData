@@ -1,7 +1,7 @@
 Package: summarizeData
 Type: Package
 Title: Tools for Summarizing Data
-Version: 0.1.1
+Version: 1.0.0
 Author: Runhe Guo <guorunhe@student.ubc.ca>
 Maintainer: Runhe Guo <guorunhe@student.ubc.ca>
 Description: Provides a function to summarize numeric data by grouping variables, calculating mean and standard deviation.
