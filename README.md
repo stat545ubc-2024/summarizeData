@@ -6,6 +6,8 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
+## Description
+
 The goal of `summarizeData` is to offer a flexible function that
 efficiently summarizes numeric data within dataframes. It allows users
 to group data based on any specified column and computes essential
