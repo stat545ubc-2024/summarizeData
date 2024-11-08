@@ -15,8 +15,8 @@ statistical analyses across a variety of data types.
 
 ## Installation
 
-You can install the development version of `summarizeData` from GitHub
-using the `devtools` package:
+You can install the `summarizeData` package from GitHub using the
+`devtools` package:
 
 ``` r
 # Install devtools if not already installed
