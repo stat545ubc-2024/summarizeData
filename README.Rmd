@@ -2,17 +2,29 @@
 output: github_document
 ---
 
-# summarizeData Package
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Description
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
-`summarizeData` provides a flexible function to efficiently summarize numeric data within dataframes. It groups data based on any specified column and calculates essential statistics, such as mean and standard deviation, for each group. This tool is ideal for quick and precise statistical analyses across diverse data types.
+# summarizeData
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of `summarizeData` is to offer a flexible function that efficiently summarizes numeric data within dataframes. It allows users to group data based on any specified column and computes essential statistics, including mean and standard deviation, for each group. This capability makes it an ideal tool for conducting quick and precise statistical analyses across a variety of data types.
 
 ## Installation
 
 You can install the development version of `summarizeData` from GitHub using the `devtools` package:
 
-```r
+``` r
 # Install devtools if not already installed
 install.packages("devtools")
 
@@ -20,9 +32,11 @@ install.packages("devtools")
 devtools::install_github("stat545ubc-2024/summarizeData")
 ```
 
-## Usage
+## Example
 
-```r
+Below are examples illustrating how to use `summarizeData` to perform statistical summaries on the `mtcars` dataset. These examples demonstrate grouping and summarizing operations, along with handling missing values effectively:
+
+```{r example}
 library(summarizeData)
 
 # Summarize mpg by cyl in mtcars
